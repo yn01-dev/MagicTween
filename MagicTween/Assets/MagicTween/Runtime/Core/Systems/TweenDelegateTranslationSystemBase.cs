@@ -43,8 +43,8 @@ namespace MagicTween.Core.Systems
             accessorFlagsTypeHandle = SystemAPI.GetComponentTypeHandle<TweenAccessorFlags>(true);
             startValueTypeHandle = SystemAPI.GetComponentTypeHandle<TweenStartValue<TValue>>();
             valueTypeHandle = SystemAPI.GetComponentTypeHandle<TweenValue<TValue>>();
-            delegatesTypeHandle = SystemAPI.ManagedAPI.GetComponentTypeHandle<TweenDelegates<TValue>>(true);
-            unsafedelegatesTypeHandle = SystemAPI.ManagedAPI.GetComponentTypeHandle<TweenDelegatesNoAlloc<TValue>>(true);
+            delegatesTypeHandle = EntityManager.GetComponentTypeHandle<TweenDelegates<TValue>>(true);
+            unsafedelegatesTypeHandle = EntityManager.GetComponentTypeHandle<TweenDelegatesNoAlloc<TValue>>(true);
         }
 
 
