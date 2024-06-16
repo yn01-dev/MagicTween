@@ -57,7 +57,7 @@ namespace MagicTween.Core.Systems
             accessorFlagsTypeHandle = SystemAPI.GetComponentTypeHandle<TweenAccessorFlags>(true);
             pointsTypeHandle = SystemAPI.GetBufferTypeHandle<PathPoint>();
             valueTypeHandle = SystemAPI.GetComponentTypeHandle<TweenValue<float3>>();
-            accessorTypeHandle = SystemAPI.ManagedAPI.GetComponentTypeHandle<TweenDelegates<float3>>(true);
+            accessorTypeHandle = EntityManager.GetComponentTypeHandle<TweenDelegates<float3>>(true);
         }
 
         [BurstCompile]

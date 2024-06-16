@@ -86,7 +86,7 @@ namespace MagicTween.Core.Systems
             accessorFlagsTypeHandle = SystemAPI.GetComponentTypeHandle<TweenAccessorFlags>(true);
             startValueTypeHandle = SystemAPI.GetComponentTypeHandle<TweenStartValue<UnsafeText>>();
             valueTypeHandle = SystemAPI.GetComponentTypeHandle<TweenValue<UnsafeText>>();
-            accessorTypeHandle = SystemAPI.ManagedAPI.GetComponentTypeHandle<TweenDelegates<string>>(true);
+            accessorTypeHandle = EntityManager.GetComponentTypeHandle<TweenDelegates<string>>(true);
         }
 
         protected override void OnUpdate()
