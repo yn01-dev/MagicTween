@@ -7,6 +7,9 @@
 
 [English README is here](README.md)
 
+> [!IMPORTANT]
+> MagicTweenはアーカイブされました。今後は[LitMotion](https://github.com/yn01-dev/LitMotion)の移行を検討してください。
+
 ## 概要
 
 Magic TweenはUnityのECS(Entity Component System)で実装されたハイパフォーマンスなトゥイーンライブラリです。

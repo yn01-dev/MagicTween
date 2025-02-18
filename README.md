@@ -7,6 +7,9 @@
 
 [日本語版READMEはこちら](README_JA.md)
 
+> [!IMPORTANT]
+> MagicTween has been archived. Please consider migrating to [LitMotion](https://github.com/yn01-dev/LitMotion).
+
 ## Overview
 
 Magic Tween is a high-performance tweening library implemented with Unity Entity Component System (ECS).
